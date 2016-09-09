@@ -20,8 +20,28 @@ body {
     height: 100vh;
 }
 
-h1.image-bg-fluid-height {
-  font-size: 20em;
+.header-text {
+  font-size: 5em;
+  padding-top: 2em;
+  color: #BDB5A9;
+}
+
+hr {
+  max-width: 4em;
+  border-color: #7E786D;
+  border-width: .5em;
+}
+
+.blog-button {
+  background-color: black !important;
+}
+
+a.blog-button {
+  color: #BDB5A9 !important;
+}
+
+.header-sub-text {
+  color: #BDB5A9;
 }
 
 .image-bg-fixed-height {
@@ -38,9 +58,13 @@ h1.image-bg-fluid-height {
     -o-background-size: cover;
 }
 
+.copyright {
+  color: #BDB5A9;
+}
+
 /****** Nav Bar *******/
 nav.navbar.navbar-inverse.navbar-fixed-top {
-  background-color: #7E786D !important;
+  background-color: #BDB5A9 !important;
 }
 a.navbar-brand {
     color: black !important;
@@ -52,6 +76,11 @@ a.navbar-brand {
 .navbar-inverse .navbar-nav>li>a:hover {
     color: black !important;
     background-color: rgba(255,255,255,0.7);
+}
+.logo-img {
+  max-height: 3em;
+  max-width: auto;
+  padding-top: .25em;
 }
 
 /***** images *****/
@@ -76,6 +105,27 @@ a.navbar-brand {
   border-radius: 6em;
 }
 
+.big-img-container {
+    width: 33%;
+    min-width: 350px;
+    float: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+.big-img {
+    max-height: 250px;
+    width: auto;
+    min-width: 250px;
+    float: none;
+}
+
+.github-img {
+  color: #BDB5A9;
+}
+
 section {
     padding: 75px 0;
     background-color: #302B27;
@@ -88,7 +138,7 @@ section {
 }
 
 .section-lead {
-    margin: 30px 0;
+    margin: 30px 3em;
 }
 
 .section-paragraph {
